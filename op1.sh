@@ -15,5 +15,8 @@
 
 # Add a feed source
 echo 'src-git xd https://github.com/shiyu1314/onecloud-package' >>feeds.conf.default
+echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >>feeds.conf.default
+echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main" >>feeds.conf.default
+echo 'src-git ztc1997 https://github.com/ztc1997/onecloud-package' >>feeds.conf.default
 echo 'src-git dns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
-svn co https://github.com/shiyu1314/openwrt-onecloud/trunk/target/linux/meson target/linux/meson
+svn co https://github.com/ztc1997/openwrt-onecloud/trunk/target/linux/meson target/linux/meson
