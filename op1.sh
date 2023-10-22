@@ -15,4 +15,5 @@
 
 # Add a feed source
 echo 'src-git xd https://github.com/shiyu1314/onecloud-package' >>feeds.conf.default
+echo 'src-git dns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
 svn co https://github.com/shiyu1314/openwrt-onecloud/trunk/target/linux/meson target/linux/meson
